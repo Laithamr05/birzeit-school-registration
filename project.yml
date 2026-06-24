@@ -1,0 +1,43 @@
+name: SchoolRegistration
+options:
+  bundleIdPrefix: edu.birzeit.g6
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGNING_REQUIRED: NO
+    CODE_SIGN_IDENTITY: ""
+    CODE_SIGNING_ALLOWED: NO
+targets:
+  SchoolRegistration:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: SchoolRegistration
+    info:
+      path: SchoolRegistration/Info.plist
+      properties:
+        CFBundleDisplayName: Birzeit School
+        CFBundleName: Birzeit School
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        CFBundleLocalizations:
+          - ar
+          - en
+        UIAppFonts: []
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: edu.birzeit.g6.SchoolRegistration
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_MACCATALYST: NO
+        ENABLE_PREVIEWS: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
