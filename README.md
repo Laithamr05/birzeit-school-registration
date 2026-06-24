@@ -1,4 +1,4 @@
-# Birzeit School Registration
+# Birzeit School Registration Prototype
 
 A SwiftUI app we built for our Software Engineering course (COMP433, Birzeit University). It's a parent-facing portal for a single school — sign up, submit an application for your kid, pay registration and tuition through eSadad, and see grades and the class schedule once they're registered. There are two staff sides too: a school administrator who reviews applications, and a finance staff member who pulls up payment records.
 
